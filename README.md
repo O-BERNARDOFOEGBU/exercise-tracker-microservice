@@ -30,7 +30,8 @@ Create a .env file and add your MongoDB URI as MONGO_URI.
 Run the Server
 
 Start the server with npm start.
-Usage
+
+## Usage
 
 Use tools like Postman to interact with the API endpoints.
 
@@ -45,10 +46,10 @@ CORS for Cross-Origin Resource Sharing
 
 Create User
 
-```json
 POST /api/users
 Content-Type: application/json
 
+```json
 {
 "username": "new_user"
 }
@@ -56,10 +57,10 @@ Content-Type: application/json
 
 Add Exercise
 
-```json
 POST /api/users/:\_id/exercises
 Content-Type: application/json
 
+```json
 {
 "description": "Jogging",
 "duration": 30,
@@ -69,9 +70,8 @@ Content-Type: application/json
 
 Get Exercise Log
 
-```json
 GET /api/users/:\_id/logs
-```
+
 
 ### License
 
